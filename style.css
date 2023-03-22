@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 202, 150);
+}
+
+table{
+    background-color: white;
+    width: 800px;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+#num {
+    padding: 3px;
+}
+
+#go{
+    padding: 3px;
+}
