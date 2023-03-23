@@ -3,7 +3,7 @@ const btn = document.getElementById('go');
 const table = document.getElementById('tabuada');
 
 btn.addEventListener("click", () => {
-    innerHTML = null;
+    innerHTML = null
     for (let i = 0; i <= 10; i++) {
         const line = document.createElement("tr");
         const multiplicador = document.createElement("th");
